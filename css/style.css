@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* **************************************************************** BODY SIDE **************************************************************** */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2C4E80;
+    min-height: 550px;
+    width: 100%;
+}
+
+/* HEADER SIDE */
+
+header {
+    background-color: #FC4100;
+    height: 100px;
+}
+
+#header-title {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* **************************************************************** MENU SIDE **************************************************************** */
+
+nav {
+    background-color: #FFC55A;
+    height: 46px;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li { 
+    display: inline-block;
+}
+
+nav li a { 
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: #2C4E80;
+}
+
+nav li a:hover { 
+    color: #FFC55A;
+    background-color: #FC4100;
+    width: 90px;
+}
+
+.activated {
+    color: #00215E;
+    background-color: #FC4100;
+    padding: 16px 16px;
+}
+
+/* **************************************************************** ARTICLE SIDE **************************************************************** */
+
+section {
+    width: 1200px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    min-height: 505px;
+}
+
+section article {
+    background-color: #00215E;
+    padding: 20px;
+    padding-bottom: 45px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 0.8px solid #FC4100;
+    border-radius: 12px;
+    min-height: 150px;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.product {
+    list-style-position:inside;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.none-list {
+    list-style: none;
+}
+
+.product  li {
+    margin-top: 5px;
+    color: antiquewhite;
+}
+
+section h2, h3 {
+    margin-top: 15px;
+    text-align: center;
+    color: #FC4100;
+}
+
+section ul li h4 {
+    text-align: center;
+    color: #f3b63d;
+}
+
+section p {
+    margin-top: 10px;
+    color: wheat;
+    text-align: justify;
+}
+
+section p a {
+    text-decoration: none;
+    color: #FFC55A;
+}
+
+/* *************************** Address Side *************************** */
+
+section address {
+    text-align: left;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+section address h2, section address h3{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section address p, section address a{
+    text-align: left;
+    margin-left: 10px;
+    text-indent: 0px;
+    font-size: 18px;
+}
+
+/* *************************** Class Side *************************** */
+
+.contact-img{
+    float: left;
+    width: 520px;
+}
+
+.clear {
+    clear: both;
+}
+
+.relative {
+    position: relative;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.img-left {
+    float: left;
+}
+
+.img-right {
+    float: right;
+}
+
+.p-indent {
+    text-indent: 20px;
+}
+
+.img-250 {
+    width: 250px;
+}
+
+.margin-top {
+    margin-top: 25px;
+}
+
+.margin-bottom {
+    margin-bottom: 25px;
+}
+
+.margin-left {
+    margin-left: 25px;
+}
+
+.margin-right {
+    margin-right: 25px;
+}
+
+
+/* **************************************************************** FOOTER SIDE **************************************************************** */
+
+footer {
+    background-color: black;
+    color: antiquewhite;
+    min-height: 100px; 
+    width: 100%;
+    position:relative;
+    bottom: 0px;    
+}
+
+footer ul {
+    padding: 20px;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+}
+
+footer ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    float: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: wheat;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* **************************************************************** FONT SIDE **************************************************************** */
+
+.lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.letter-space-4 {
+    letter-spacing: 1px;
+}
+  
+.color-yellow {
+    color: #ff0000;
+}
